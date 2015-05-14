@@ -200,9 +200,9 @@ NSString *user_id;
         NSLog(@"%@", newStr);
         allData = [newStr JSONValue];
         NSLog(@"allData==%@",allData);
-        NSString *getMessage = [allData valueForKey:@"Success"];
+        NSString *getMessage = [allData valueForKey:@"message"];
         NSLog(@"%@",getMessage);
-        if([getMessage isEqualToString:@"Done"]){
+        if([getMessage isEqualToString:@"Success"]){
             UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Kushme" message:@"You have Sucessfully Login" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil,nil];
             [alert show];
             }
