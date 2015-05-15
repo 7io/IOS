@@ -1,5 +1,5 @@
 //
-//  ShopMapViewController.h
+//  ShowMapLocationViewController.h
 //  Kushme
 //
 //  Created by Test on 15/05/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShopMapViewController : UIViewController
+@interface ShowMapLocationViewController : UIViewController
 
 @end

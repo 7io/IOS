@@ -1,22 +1,22 @@
 //
-//  ShopMapViewController.m
+//  ShowMapLocationViewController.m
 //  Kushme
 //
 //  Created by Test on 15/05/15.
 //  Copyright (c) 2015 Ishant Tiwari. All rights reserved.
 //
 
-#import "ShopMapViewController.h"
+#import "ShowMapLocationViewController.h"
 
-@interface ShopMapViewController ()
+@interface ShowMapLocationViewController ()
 
 @end
 
-@implementation ShopMapViewController
+@implementation ShowMapLocationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
